@@ -1,0 +1,117 @@
+$primarycolor:rgb(34,34,34);
+$seccolor:rgb(44, 172, 18);
+$sec2color:rgb(0, 144, 180);
+$border:solid 0.2px $primarycolor;
+$small: 700px;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    background-color: $primarycolor;
+
+    .container-fluid{
+        padding: 0;
+       
+    }
+
+    section{
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        
+        @media screen and (max-width: $small) {
+           flex-wrap: wrap;
+           height: auto;
+          }
+         img{
+             width: 50%;
+             height: 100%;
+             @media screen and (max-width: $small) {
+               width: 100%;
+               margin-bottom: 2rem;
+            }
+        }
+         .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            @media screen and (max-width: $small) {
+            width: 100%;
+            height: 100%;
+            }
+             padding: 40px;
+             height:100%;
+             margin: 0;
+             width: 50%;
+             background-color: white;
+             h2{
+                 color: $seccolor;
+             }
+             p{
+                 color: $primarycolor;
+             }
+
+         }
+         .text1{
+             @extend .text;
+             h2{
+                 color: $primarycolor;
+             }
+             p{
+                 color: rgb(100, 100, 100);
+             }
+         }
+
+         .text2{
+             @extend .text;
+             background-color: $primarycolor;
+             p{
+                 color: white;
+             }
+         }
+
+         .text3{
+             @extend .text;
+             h2{
+                 color: $sec2color;
+             }
+
+         }
+
+        }
+        
+        header{
+            height: 70vh;
+            width: 100%;
+            padding: 110px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;  
+            color:white;
+            margin-top: 3rem;
+            background-color: $sec2color;
+            @media screen and (max-width: $small) {
+            height: 55vh;
+            padding: 20px;
+           
+        }
+        h1,h3{
+            @media screen and (max-width: $small) {
+               font-size: 23px;
+               
+            }
+        }
+    }
+
+    }
+
+

@@ -1,0 +1,65 @@
+
+h1{
+  letter-spacing: 0.5rem;
+  margin-top: 5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #929090, #ffffff, #929090);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);  
+  text-align: center;
+    position: relative;
+    top:9vh
+  
+  }
+  #home{
+    color: brown;
+    font-weight: bold
+  }
+  
+  .flex{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto
+
+    
+  }
+  p{
+    margin-top: 10rem;
+    width: 50%;
+    
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+.container-fluid{
+    padding:0
+}
+body {
+  font-family: sans-serif;
+    color:white;
+    background: url("https://www.nationalgeographic.com/content/dam/news/photos/000/789/78967.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black
+
+  }
+  
+  
+@media (max-width:600px) {
+  h1{
+    font-size: 28px;
+    transition-property: all;
+   transition-duration: 1s;
+  }
+}

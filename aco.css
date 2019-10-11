@@ -1,0 +1,72 @@
+
+h1{
+  font-size: 3rem;
+  
+  margin: auto;
+  margin-top: 9rem;
+  padding: 20px;
+  border-bottom: solid 1px red
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(17, 17, 17);
+  line-height: 30px;
+   letter-spacing: 1.3px;
+  color: rgb(236, 236, 236);
+  
+}
+#home{
+  color: brown;
+  font-weight: bold
+}
+
+
+section{
+  width:85%;
+  margin: auto;
+  margin-bottom: 7rem;
+  border-left: solid 1px wheat;
+  border-bottom: solid 1px wheat;
+  margin-top: 4rem;
+  padding: 2rem
+}
+.list{
+  border-right:solid 1px wheat ;
+  border-bottom: solid 1px wheat;
+  margin-bottom: 7rem;
+  padding: 2rem
+
+}
+.container-fluid{
+  margin: 0;
+  padding: 0
+}
+.im{
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.red{
+  color: red;
+  font-size: 3rem
+}
+
+
+
+
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

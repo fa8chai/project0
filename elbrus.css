@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 30px;
+  letter-spacing: 1.3px;
+  background-color: #222222;
+}
+body .container-fluid {
+  padding: 0;
+}
+body section {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+@media screen and (max-width: 700px) {
+  body section {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+body section img {
+  width: 50%;
+  height: 100%;
+}
+@media screen and (max-width: 700px) {
+  body section img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+body section .text, body section .text3, body section .text2, body section .text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 100%;
+  margin: 0;
+  width: 50%;
+  background-color: white;
+}
+@media screen and (max-width: 700px) {
+  body section .text, body section .text3, body section .text2, body section .text1 {
+    width: 100%;
+    height: 100%;
+  }
+}
+body section .text h2, body section .text3 h2, body section .text2 h2, body section .text1 h2 {
+  color: #2cac12;
+}
+body section .text p, body section .text3 p, body section .text2 p, body section .text1 p {
+  color: #222222;
+}
+body section .text1 h2 {
+  color: #222222;
+}
+body section .text1 p {
+  color: #646464;
+}
+body section .text2 {
+  background-color: #222222;
+}
+body section .text2 p {
+  color: white;
+}
+body section .text3 h2 {
+  color: #0090b4;
+}
+body header {
+  height: 70vh;
+  width: 100%;
+  padding: 110px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 3rem;
+  background-color: #0090b4;
+}
+@media screen and (max-width: 700px) {
+  body header {
+    height: 55vh;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body header h1, body header h3 {
+    font-size: 23px;
+  }
+}
+
+/*# sourceMappingURL=elbrus.css.map */
