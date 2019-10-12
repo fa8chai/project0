@@ -3,7 +3,7 @@
 Web Programming with Python and JavaScript
 
 
-# project0
+
 
 the seven summits website
 the imges folder contains some of the media in the website
